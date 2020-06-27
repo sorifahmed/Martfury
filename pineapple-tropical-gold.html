@@ -1,0 +1,490 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Martfury</title>
+  <link rel="icon" type="text/css" href="img/favi.png">
+  <meta name="description" content="">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!----------------------- Boostrap cdn --------------------------->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <!----------------------- Fontawesome cdn --------------------------->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <!------------------------- util ---------------------------->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <!----------------------- Main css --------------------------->
+  <link rel="stylesheet" href="css/main.css">
+  <!----------------------- jquery cdn --------------------------->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+ <!============================ Header-top ===============================>
+ <section class="top-section">
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-2 col-sm-2 col-md-2">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png"></a>
+          </div>
+       </div>
+       <div class="col-10 col-sm-10 col-md-10">
+         <div class="top-right">
+            <select id="inputState" class="form-control">
+               <option selected>All</option>
+               <option>Butters & Eggs</option>
+               <option>Fastfoods</option>
+               <option>Fresh Meats</option>
+               <option>Fruits</option>
+               <option>Milks & Creams</option>
+               <option>Ocean Foods</option>
+               <option>Seeds & Spices</option>
+               <option>Vegetables</option>
+            </select>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="I'm shopping for...">
+            <button type="button" class="btn btn-success">Search</button>
+            <div class="extras-menu">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-heart"></i>
+                    <span class="mini-item-counter">0</span>
+                  </a>
+                </li>
+                 <li>
+                  <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <span class="mini-item-counter">0</span>
+                  </a>
+                </li>
+                 <li>
+                  <a href="#">
+                    <i class="fa fa-user"></i>
+                    <span  class="login">Login In<br/>Register</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!============================  Menu  ==============================>
+<section class="mainmenu">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand active" href="#">Shop By Department</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+<!======================= Product_location ====================>
+<section class="Product_location">
+  <div class="location">
+    <div class="container-fluid">
+      <p><span>Home / Fruits</span> / Avocadoes – Hass (New Season)</p>
+    </div>
+  </div>
+</section>
+<section class="product_name">
+  <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-6">
+      <div class="product_desc">
+        <h2>Avocadoes – Hass (New Season)</h2>
+        <div class="product_star">
+            <i class="fa fa-star color"></i>
+            <i class="fa fa-star color"></i>
+            <i class="fa fa-star color2"></i>
+            <i class="fa fa-star color2"></i>
+            <i class="fa fa-star color2"></i>
+            <span>( 1 Review )</span>
+        </div>
+        <div class="sku">
+          <p>SKU: VS75560391230-1</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="social_media pull-right">
+        <a href="#"><i class="fa fa-facebook facebook"></i></a>
+        <a href="#"><i class="fa fa-linkedin linkedin"></i></a>
+        <a href="#"><i class="fa fa-twitter twitter"></i></a>
+        <a href="#"><i class="fa fa-pinterest pinterest"></i></a>
+        <a href="#"><i class="fa fa fa-vk vk"></i></a>
+        <a href="#"><i class="fa fa-google google"></i></a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!========================== Product-bay =============================>
+<section class="product_bay">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+         <span class='zoom' id='ex1'>
+           <img src='http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2013/06/2a.jpeg' width='90' height='100'/>
+        </span>
+      </div>
+      <div class="col-md-6">
+        <div class="prod_info">
+           <div class="pro_wrap">
+                <p>$7.06</p>
+                <h5>Status:<span>Out of stock</span></h5>
+           </div>
+            <div class="prod_list">
+              <ul>
+                <li>Unrestrained and portable active stereo speaker</li>
+                <li>Free from the confines of wires and chords</li>
+                <li>20 hours of portable capabilities</li>
+                <li>Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
+                <li>3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+              </ul>
+            </div>
+            <p class="cate">Categories: <span>Fruits, Vegetables</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!=========================== Description ============================>
+<section class="description">
+  <div class="container-fluid">
+      <ul class="desc text-center">
+        <li><a  class="des_title" href="#">Description</a></li>
+        <div class="reviews">
+          <li><a href="#">Reviews (1)</a></li>
+        </div>
+      </ul>
+      <div class="descroption_text">
+        <h2>Embodying the Raw, Wayward Spirit of Rock ‘N’ Roll</h2>
+        <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+        <p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+      <img src="img/d1.jpg">
+      <h3>What do you get</h3>
+      <p>Sound of Marshall, unplugs the chords, and takes the show on the road.Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+      <p>The FM radio is perhaps gone for good, the assumption apparently being that the jury has ruled in favor of streaming over the internet. The IR blaster is another feature due for retirement – the S6 had it, then the Note5 didn’t, and now with the S7 the trend is clear.</p>
+      <h3>Perfectly Done</h3>
+      <p>Meanwhile, the IP68 water resistance has improved from the S5, allowing submersion of up to five feet for 30 minutes, plus there’s no annoying flap covering the charging port</p>
+      <ul>
+        <li>No FM radio (except for T-Mobile units in the US, so far)</li>
+        <li>No IR blaster</li>
+        <li>No stereo speakers</li>
+      </ul>
+      <p>If you’ve taken the phone for a plunge in the bath, you’ll need to dry the charging port before plugging in. Samsung hasn’t reinvented the wheel with the design of the Galaxy S7, but it didn’t need to. The Gala S6 was an excellently styled device, and the S7 has managed to improve on that.</p>
+    </div>
+  </div>
+</section>
+<!========================= Related products =========================>
+<section class="related_product">
+  <div class="container-fluid">
+    <div class="related_titel text-center">
+      <h2>Related products</h2>
+    </div>
+  </div>
+    <div class="container-fluid">
+     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+  </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="Arrivals_item">
+                <div class="arrivals_Bx text-center">
+                   <a href="pineapple-tropical-gold.html"><img src="img/relet4.jpeg"></a>
+                    <div class="arr_prof">
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-shopping-bag"></i></a>
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="arrivals_text">
+                  <a href="pineapple-tropical-gold.html">Locally Grown Strawberries, 1 Pint</a>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color2"></i>
+                  <span>01</span>
+                  <div class="arrivals_prices">$26.95</div>
+                </div>
+              </div>
+           </div>
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="Arrivals_item">
+                <div class="arrivals_Bx text-center">
+                   <a href="pineapple-tropical-gold.html"><img src="img/revies.jpg"></a>
+                    <div class="arr_prof">
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-shopping-bag"></i></a>
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="arrivals_text">
+                  <a href="pineapple-tropical-gold.html">Locally Grown Strawberries, 1 Pint</a>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color2"></i>
+                  <span>01</span>
+                  <div class="arrivals_prices">$26.95</div>
+                </div>
+              </div>
+           </div>
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="Arrivals_item">
+                <div class="arrivals_Bx text-center">
+                   <a href="pineapple-tropical-gold.html"><img src="img/20a-300x300.jpg"></a>
+                    <div class="arr_prof">
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-shopping-bag"></i></a>
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="arrivals_text">
+                  <a href="pineapple-tropical-gold.html">Locally Grown Strawberries, 1 Pint</a>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color2"></i>
+                  <span>01</span>
+                  <div class="arrivals_prices">$26.95</div>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+              <div class="row">
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="Arrivals_item">
+                <div class="arrivals_Bx text-center">
+                   <a href="pineapple-tropical-gold.html"><img src="img/relet4.jpeg"></a>
+                    <div class="arr_prof">
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-shopping-bag"></i></a>
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="arrivals_text">
+                  <a href="pineapple-tropical-gold.html">Locally Grown Strawberries, 1 Pint</a>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color2"></i>
+                  <span>01</span>
+                  <div class="arrivals_prices">$26.95</div>
+                </div>
+              </div>
+           </div>
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="Arrivals_item">
+                <div class="arrivals_Bx text-center">
+                   <a href="pineapple-tropical-gold.html"><img src="img/20a-300x300.jpg"></a>
+                    <div class="arr_prof">
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-shopping-bag"></i></a>
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="arrivals_text">
+                  <a href="pineapple-tropical-gold.html">Locally Grown Strawberries, 1 Pint</a>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color2"></i>
+                  <span>01</span>
+                  <div class="arrivals_prices">$26.95</div>
+                </div>
+              </div>
+           </div>
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="Arrivals_item">
+                <div class="arrivals_Bx text-center">
+                   <a href="pineapple-tropical-gold.html"><img src="img/product3.jpeg"></a>
+                    <div class="arr_prof">
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-shopping-bag"></i></a>
+                      <a href="pineapple-tropical-gold.html"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="arrivals_text">
+                  <a href="pineapple-tropical-gold.html">Locally Grown Strawberries, 1 Pint</a>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color2"></i>
+                  <span>01</span>
+                  <div class="arrivals_prices">$26.95</div>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!=========================== Footer-top ============================>
+<section class="footer-top">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="footer_wrpp">
+           <h2>QUICK LINKS</h2>
+            <div class="footer_list">
+              <ul>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Term & Conditions</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Return</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="footer_wrpp">
+           <h2>Company</h2>
+            <div class="footer_list">
+              <ul>
+                <li class="button"><a class="content" href="#">About Us</a></li>
+                <li><a href="#">Affilate</a></li>
+                <li><a href="#">Carrer</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="footer_wrpp">
+           <h2>BUSSINESS</h2>
+            <div class="footer_list">
+              <ul>
+                <li><a href="#">Our Press</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">My account</a></li>
+                <li><a href="#">Shop</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="footer_wrpp">
+           <h2>NEWSLETTER</h2>
+            <div class="footer_list">
+               <p>Register now to get updates on promotions & coupons</p>
+               <span>[mc4wp_form id="436"]</span>
+            </div>
+            <div class="social">
+              <i class="fa fa-facebook facb"></i>
+              <i class="fa fa-twitter twit"></i>
+              <i class="fa fa-linkedin linke"></i>
+              <i class="fa fa-pinterest pint"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!============================== Footer ============================>
+<footer class="footer-section">
+  <div class="container-fluid">
+    <p class="text-center">© 2018 Martfury. All Rights Reserved</p>
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-6">
+        <div class="footer_left">
+          <p>We Using Safe Payment For</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-6">
+        <div class="footer_right">
+          <img src="http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2017/12/p1.jpg">
+          <img src="http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2017/12/p2.jpg">
+          <img src="http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2017/12/p2.jpg">
+          <img src="http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2017/12/p4.jpg">
+          <img src="http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2017/12/p5.jpg">
+          <img src="http://demo2.drfuri.com/martfury15/wp-content/uploads/sites/56/2017/12/p6.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/jquery.zoom.js"></script>
+  <script src="js/countdowntime.js"></script>
+   <!------------------------ swiper js --------------------->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      speed: 600,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+<!------------------------ countdown js --------------------->
+  <script>
+    $('.cd100').countdown100({
+      /*Set Endtime here*/
+      /*Endtime must be > current time*/
+      endtimeYear: 0,
+      endtimeMonth: 0,
+      endtimeDate: 35,
+      endtimeHours: 18,
+      endtimeMinutes: 0,
+      endtimeSeconds: 0,
+      timeZone: "" 
+      // ex:  timeZone: "America/New_York"
+      //go to " http://momentjs.com/timezone/ " to get timezone
+    });
+  </script>
+<!------------------------ Zoom img --------------------->
+  <script>
+    $(document).ready(function(){
+      $('#ex1').zoom();
+      $('#ex2').zoom({ on:'grab' });
+      $('#ex3').zoom({ on:'click' });      
+      $('#ex4').zoom({ on:'toggle' });
+    });
+  </script>
+</body>
+</html>
